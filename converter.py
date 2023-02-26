@@ -9,7 +9,7 @@ while vaePath not in ('1', '2', '3'):
     vaePath = input("[1] = Anything-v3.0 (Anime)\n[2] = StabilityAI (Realistic)\n[3] = None (Default)\n")
 
 if vaePath == '1':
-    vaePath = '--vae_path "./diffusers/vae/vae-anythingv3-nai_diffusers"'
+    vaePath = '--vae_path "Linaqruf/anything-v3.0/vae"'
 elif vaePath == '2':
     vaePath = '--vae_path "stabilityai/sd-vae-ft-mse"'
 else:
